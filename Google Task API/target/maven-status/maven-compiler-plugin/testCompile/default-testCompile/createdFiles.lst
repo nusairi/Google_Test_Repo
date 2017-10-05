@@ -1,0 +1,6 @@
+ui\StepDefinitions\Hooks.class
+ui\StepDefinitions\Quickstart.class
+ui\PageAction\HomePage.class
+ui\StepDefinitions\HomeSteps.class
+ui\StepDefinitions\RunCukesTest.class
+ui\OR\HomeOR.class

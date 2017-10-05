@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify Title of Home Page",
+        "description": "",
+        "id": "title-of-your-feature;verify-title-of-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2504388723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36540219683,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am logged in",
+            "match": {
+              "location": "HomeSteps.i_am_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to verify Home Page",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Home.feature"
+  }
+]
